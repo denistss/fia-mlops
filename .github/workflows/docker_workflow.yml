@@ -18,8 +18,8 @@ jobs:
         docker login -u $DOCKERHUB_USERNAME -p $DOCKERHUB_PWD
     - name: Build & Push Docker Image
       run: |
-        docker build . --file Dockerfile --tag carolzkamada/mlops:latest
-        docker push carolzkamada/mlops:latest
+        docker build . --file Dockerfile --tag denists/mlops:latest
+        docker push denists/mlops:latest
     - name: Docker Run
       run: |
-        docker run carolzkamada/mlops:latest
+        docker run denists/mlops:latest
