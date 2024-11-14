@@ -1,6 +1,6 @@
 # MLOPS
 
-Este projeto tem o propósito de apresentar alguns padrões de um projeto de machine learning pronto para produção.
+Este projeto tem o propósito de apresentar alguns padrões de um projeto de machine learning pronto para produção..
 
 ### Informações gerais:
 - Base de dados utilizada: https://www.kaggle.com/datasets/sukhmandeepsinghbrar/housing-price-dataset
